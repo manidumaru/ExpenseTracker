@@ -1,0 +1,28 @@
+.expense-filter__months {
+  background-color: #c8b1e3;
+  margin: 10px 0px;
+  padding: 20px 50px;
+  border-radius: 12px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.months-holder {
+  display: flex;
+  flex-direction: column;
+}
+
+.months__bar {
+  margin-left: 5px;
+  height: 150px;
+  width: 18px;
+  background-color: #9f8be0;
+  border-radius: 12px;
+}
+
+.months__name {
+  margin-top: 5px;
+  color: black;
+  font-size: 20px;
+}

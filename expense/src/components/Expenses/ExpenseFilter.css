@@ -1,0 +1,30 @@
+
+
+.expense-filter__container {
+    margin: 10px 0px;
+    padding: 0px 10px;
+}
+
+.expense-filter__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.expense-filter__title {
+    font-size: 24px;
+    font-weight:bolder;
+}
+
+.expense-filter__dropdown {    
+    border-radius: 12px;
+    display: flex;    
+    height: 50px;
+    width:200px;
+    color:black;
+    font-size: 20px;
+    padding:10px;
+}
+
+option {
+    color: black;
+}

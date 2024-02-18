@@ -41,3 +41,21 @@
     margin:5px;
     border: 2px solid white;
 }
+
+.title-change {     
+    padding: 5px 15px;    
+    display: flex;
+    align-items: center;
+}
+
+.title-change-button {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #2d2c33;
+    border-radius: 12px;
+    transition: 300ms ease-in;
+}
+
+.title-change-button:hover {
+    background-color: #1f154d;    
+}

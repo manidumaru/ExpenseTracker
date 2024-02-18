@@ -1,4 +1,5 @@
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 function App() {
   const expenses = [
@@ -26,11 +27,16 @@ function App() {
       title : "Macbook Air M2",
       amount : 65000,
     },    
-  ];
+  ];  
+
+  const addExpenseHandler = (expense) => {
+    console.log(expense);    
+  };
+
   return (
-    <div>
-      <h1>Expense Tracker App</h1>
-      <Expenses expenses = {expenses} />      
+    <div>      
+      <NewExpense onAddExpense = { addExpenseHandler } />
+      <Expenses expenses = {expenses} />
     </div>    
   );
 }

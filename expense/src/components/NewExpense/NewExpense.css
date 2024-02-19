@@ -5,3 +5,24 @@
     border-radius: 20px;
     margin: 40px 0px;
 }
+
+.expand-button__holder {    
+    display: flex;
+    justify-content: center;
+}
+
+.expense-add__expand-button {
+    background-color: #2d2c33;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 20px;
+    transition: 300ms ease-in;
+    border: 1px solid #9f8be0
+}
+
+.expense-add__expand-button:hover {
+    background-color: #9f8be0;
+    border: 1px solid black;
+}

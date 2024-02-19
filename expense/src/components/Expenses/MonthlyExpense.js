@@ -19,7 +19,7 @@ const MonthlyExpense = () => {
     <div className="expense-filter__months">
       {months.map((item) => {
         return (
-          <div className="months-holder">
+          <div key = {item} className="months-holder">
             <div className="months__bar"></div>
             <div className="months__name">{item}</div>
           </div>

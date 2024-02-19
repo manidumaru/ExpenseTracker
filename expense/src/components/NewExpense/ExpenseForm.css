@@ -25,25 +25,26 @@ label {
     margin:8px 20px;
 }
 
-.new-expense__actions {    
+.new-expense__actions {
+    padding: 0px 10px;
     display: flex;
-    justify-content: flex-end;
-    padding: 5px;
+    justify-content: flex-end;    
 }
 
-.new-expense__submit {
+.new-expense__button {
+    margin: 0px 5px;
     padding:15px;
     color: black;
     background-color: #9f8be0;
     border: none;
     border-radius: 12px;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;    
     border: 1px solid black;
     transition: 500ms ease-in-out;    
 }
 
-.new-expense__submit:hover {
+.new-expense__button:hover {
     background-color: #1f154d;    
     color: white;
 }

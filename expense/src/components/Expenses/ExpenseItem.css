@@ -49,13 +49,22 @@
 }
 
 .title-change-button {
+    margin: 0px 10px;
     cursor: pointer;
-    padding: 5px 10px;
+    padding: 10px 15px;
     background-color: #2d2c33;
     border-radius: 12px;
+    border: none;
     transition: 300ms ease-in;
 }
 
 .title-change-button:hover {
-    background-color: #1f154d;    
+    background-color: #c8b1e3;
+    color: black;    
+}
+
+.title-change-input {
+    height: 30px;
+    width:150px;
+    margin-right: 10px;
 }

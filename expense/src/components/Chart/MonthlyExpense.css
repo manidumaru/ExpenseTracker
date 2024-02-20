@@ -13,30 +13,16 @@
   flex-direction: column;
 }
 
+.months__bar {
+  margin-left: 5px;
+  height: 150px;
+  width: 18px;
+  background-color: #9f8be0;
+  border-radius: 12px;
+}
+
 .months__name {
   margin-top: 5px;
   color: black;
   font-size: 20px;
-}
-
-.bar-holder {
-  position:relative;
-}
-
-.months__bar {
-  position: absolute;
-  margin-left: 5px;  
-  width: 18px;
-  background-color: #9f8be0;
-  border-radius: 12px;
-  border: 2px solid black;  
-}
-
-.months__bar-fill {  
-  margin-left: 5px;
-  height: 150px;
-  width: 18px;
-  background-color: #9fabef;
-  border-radius: 12px;
-  border: 2px solid black;
 }

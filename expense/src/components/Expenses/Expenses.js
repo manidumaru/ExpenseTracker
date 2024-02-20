@@ -19,15 +19,15 @@ function Expenses(props) {
   let expenseContent = <p className="no-expenses-found">No expense found.</p>
   if (filteredExpenses.length > 0) {
     expenseContent = filteredExpenses.map((item) => {
-      return <ExpenseItems key={item.id} 
-      onTitleChange = {props.onTitleChange} 
+      return <ExpenseItems key={item.id}
+      onTitleChange = {props.onTitleChange}
       expenseItem={item} />;
     });
   }
 
   return (
     <Card className="expenses">
-      <ExpenseFilter onYearChange={yearChangeHandler} />
+      <ExpenseFilter expenses = { filteredExpenses } onYearChange={ yearChangeHandler } />
       {expenseContent}
     </Card>
   );
